@@ -1,0 +1,18 @@
+{
+ "case_id": "demo-product-arena-03-429cc14d",
+ "topic_id": "product-arena-03-429cc14d",
+ "topic_title": "写作04｜参考文献与引用管理",
+ "difficulty": 1,
+ "domain": "writing",
+ "task_instruction": "演示用例：读取同目录的稿件与文献库材料，整理引用位置、编号与去重，每条引用绑定文献条目与匹配依据；无法判断的写入 uncertainties。",
+ "output_contract": {
+  "deliverable": "完成引用插入、编号更新、去重与格式整理后可继续编辑的稿件与同步参考文献表",
+  "evidence_map": "每条引用到文献库条目、正文位置与匹配依据的映射",
+  "change_log": "每条引用改动（插入/删除/重排/合并）与人工确认项",
+  "preserved_facts": "DOI、卷期页、文献类型标识与编号不可凭空改变",
+  "case_id": "原样保留"
+ },
+ "evaluation": {
+  "mode": "demo"
+ }
+}
