@@ -479,7 +479,7 @@ def build_payload(case, task_text):
 def main():
     parser = argparse.ArgumentParser(description="Reference and citation governance")
     parser.add_argument("--case", default=DEFAULT_CASE)
-    parser.add_argument("--out", default=DEFAULT_OUT)
+    parser.add_argument("--out", "--output", default=DEFAULT_OUT)
     parser.add_argument("--work", default=DEFAULT_WORK)
     args = parser.parse_args()
     stage, case = "load_case", {}
