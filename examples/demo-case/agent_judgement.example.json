@@ -1,0 +1,43 @@
+{
+  "_comment": [
+    "阶段 B 的判断文件模板。复制到 /app/work/agent_judgement.json 后按实际材料填写。",
+    "quote 必须是材料里的逐字片段 —— 脚本会逐条校验，找不到就退回。",
+    "case_id 必须与 /input/case.json 里的 case_id 一致。",
+    "本文件是合成示例，段落 id 取自 examples/demo-case/material.md。"
+  ],
+  "case_id": "demo-product-arena-03-429cc14d",
+  "claims": [
+    {
+      "text": "正文第二条论断由引用 [3] 支撑，该引用存在预印本与正式版两种形式。",
+      "kind": "reported",
+      "evidence": [
+        {
+          "paragraph_id": "P002",
+          "quote": "“提示学习能够在少量标注下保持稳定 [3]。”"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "question": "引用 [3] 的重复版本应如何合并？",
+      "answer": "以期刊正式版为主条目，保留 DOI 10.1000/sl.2024.007 与卷期页，并在合并依据中记录预印本编号。",
+      "evidence": [
+        {
+          "paragraph_id": "P002",
+          "quote": "“提示学习能够在少量标注下保持稳定 [3]。”"
+        }
+      ]
+    }
+  ],
+  "deliverable": "（示例）依据材料写成的目标产物正文；实际运行时由执行 Agent 按题面填写。",
+  "contract_fields": {},
+  "uncertainties": [
+    {
+      "kind": "duplicate_entry",
+      "item": "[3] arXiv:2401.00001 / Synthetic Letters 2024",
+      "detail": "预印本与正式版题名不同，是否同一文献需人工确认",
+      "resolution": "给出合并候选与依据，标记为待人工确认"
+    }
+  ]
+}
