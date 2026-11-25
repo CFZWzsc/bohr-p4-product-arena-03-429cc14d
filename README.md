@@ -2,9 +2,9 @@
 
 本题：写作04｜参考文献与引用管理（product-arena-03-429cc14d，赛道 writing）。
 
-能力定位：整理引用插入位置、编号与交叉引用、条目去重与格式字段，产出可继续编辑且正文—文献表同步的稿件
+能力定位：解析参考文献条目与正文引用，按首次出现重排编号，输出缺失/重复/未被引/跳号差异清单。
 
-交付物：result.json（契约齐全）、可编辑稿件与参考文献表、evidence_map、change_log
+交付物：manuscript-cited.md、references.bib、citations.json、renumber-diff.json、merge-log.md
 
 
 ## 这个 Skill 做什么
