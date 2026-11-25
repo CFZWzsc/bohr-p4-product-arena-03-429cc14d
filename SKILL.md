@@ -29,7 +29,7 @@ description: 当需要完成参考文献与引用管理并产出可复核结果�
 
 ## 交付物
 
-result.json（契约齐全）、可编辑稿件与同步参考文献表、evidence_map、change_log、格式与引用核对清单、材料缺口自报。
+manuscript-cited.md、references.bib、citations.json、renumber-diff.json、merge-log.md
 
 交付物的**内容契约**由运行时 `output_contract` 决定（见下）；下面「交付物落盘要求」给出的是必须真实存在的**文件**。
 
